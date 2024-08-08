@@ -28,7 +28,7 @@ export default function Home() {
             />
             <span className="fw-semibold fs-5">NIPHITPON THOSAP 660610767</span>
           </div>
-
+          <PostOwner postImagePath 
           <span>Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207</span>
 
           <div className="d-flex align-items-center gap-1">
