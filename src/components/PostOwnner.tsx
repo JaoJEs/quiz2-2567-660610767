@@ -1,6 +1,8 @@
 "use client";
+import React from "react";
 export default function PostOwnner({}) {
-  return <div className="vstack gap-3">
+  return (
+  <div className="vstack gap-3">
   <div className="d-flex align-items-center gap-3">
     <img
       src="/profileImages/myself.jpg"
@@ -20,4 +22,5 @@ export default function PostOwnner({}) {
   </div>
   <hr className="m-0 border" />
 </div>
+  )
 }

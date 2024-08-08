@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import {PostOwnner} from "/.components/PostOwnner";
+import PostOwnner from "/.components/PostOwnner";
 
 export default function Home() {
   return (
@@ -13,7 +13,9 @@ export default function Home() {
         style={{ maxWidth: "700px" }}
         className="mx-auto p-3 rounded rounded-3 shadow-sm bg-white"
       >
+
         {/* Post Owner Example*/}
+    
         <div className="vstack gap-3">
           <div className="d-flex align-items-center gap-3">
             <img
@@ -29,7 +31,7 @@ export default function Home() {
           <span>Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207</span>
 
           <div className="d-flex align-items-center gap-1">
-            <img src="/like.svg" width={20}></img>
+            <img src= "/profileImages/like.png" width={20}></img>
             <span className="text-muted">100 คน</span>
           </div>
           <hr className="m-0 border" />
@@ -52,7 +54,7 @@ export default function Home() {
             <br />
             <span>จริงค่า</span>
             <div className="d-flex align-items-center gap-1">
-              <img src="/like.svg" width={20}></img>
+              <img src="/profileImages/like.png" width={20}></img>
               <span className="text-muted">999 คน</span>
             </div>
           </div>
@@ -75,7 +77,7 @@ export default function Home() {
             <br />
             <span>จริงค้าบบบบบบบบ</span>
             <div className="d-flex align-items-center gap-1">
-              <img src="/like.svg" width={20}></img>
+              <img src="/profileImages/like.png" width={20}></img>
               <span className="text-muted">2 คน</span>
             </div>
           </div>
