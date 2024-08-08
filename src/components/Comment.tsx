@@ -1,9 +1,9 @@
 "use client";
 export default function Comment({
   ImagePath,
-  username,
+  username:string,
   commentTitle,
-  likes,
+  likes:number,
   replies,
 }) {
   return (
