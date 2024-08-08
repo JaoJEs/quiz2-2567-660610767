@@ -26,7 +26,7 @@ export default function Comment({
             <span className="fw-semibold">{username}</span>
             <br />
             <span>{commentTitle}</span>
-            {(likes > 0) &&}
+            {(likes > 0) &&
             <div className="d-flex align-items-center gap-1">
               <img src="/like.png" width={20}></img>
               <span className="text-muted">{likes} คน</span>
