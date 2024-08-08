@@ -19,7 +19,7 @@ export default function PostOwnner({}) {
 
   <div className="d-flex align-items-center gap-1">
     <img src="/like.png" width={20}></img>
-    <span className="text-muted">{likeNum} คน</span>
+    <span className="text-muted">{likes} คน</span>
   </div>
   <hr className="m-0 border" />
 </div>

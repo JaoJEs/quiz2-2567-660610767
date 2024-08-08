@@ -1,5 +1,6 @@
 "use client";
 import reply from " /src/app/libs/comments.js"
+import Reply from "./Reply";
 
 export default function Comment({
   ImagePath,
@@ -35,7 +36,7 @@ export default function Comment({
         {replies.map(reply => {
           return(
             <Reply {...reply}key={reply?.username} />
-            
+
           )
         }
     </div>
